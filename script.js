@@ -9,6 +9,7 @@ function toggleMode() {
     img.setAttribute('alt', "Foto com óculos")
   }else{
     img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("alt", "Foto de perfil")
     }
 }
 
